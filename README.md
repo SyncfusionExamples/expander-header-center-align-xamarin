@@ -21,14 +21,26 @@ Set **HorizontalTextAlignment** and **VerticalTextAlignment** of the header labe
             <StackLayout>
                 <syncfusion:SfExpander>
                     <syncfusion:SfExpander.Header>
-                        <Grid>
-                            <Label Text="Invoice Date" TextColor="#495F6E" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                        <Grid HeightRequest="50">
+                            <Label Text="Veg Pizza" TextColor="#495F6E" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                         </Grid>
                     </syncfusion:SfExpander.Header>
- 
                     <syncfusion:SfExpander.Content>
-                        <Grid>
-                            <Label BackgroundColor="#FFFFFF" HeightRequest="50" Text="11.03 AM, 15 January 2019" TextColor="#303030" VerticalTextAlignment="Center" />
+                        <Grid Padding="10,10,10,10" BackgroundColor="#FFFFFF">
+                            <Label BackgroundColor="#FFFFFF" HeightRequest="50" Text="Veg pizza is prepared with the items that meet vegetarian standards by not including any meat or animal tissue products." TextColor="#303030" VerticalTextAlignment="Center"/>
+                        </Grid>
+                    </syncfusion:SfExpander.Content>
+                </syncfusion:SfExpander>
+
+                <syncfusion:SfExpander>
+                    <syncfusion:SfExpander.Header>
+                        <Grid HeightRequest="50">
+                            <Label Text="Non-veg Pizza" TextColor="#495F6E" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                        </Grid>
+                    </syncfusion:SfExpander.Header>
+                    <syncfusion:SfExpander.Content>
+                        <Grid Padding="10,10,10,10" BackgroundColor="#FFFFFF">
+                            <Label Text="Non-veg pizza is prepared by including the meat and animal tissue products." HeightRequest="50" TextColor="#303030" VerticalTextAlignment="Center"/>
                         </Grid>
                     </syncfusion:SfExpander.Content>
                 </syncfusion:SfExpander>
